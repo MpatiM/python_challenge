@@ -77,7 +77,7 @@ print(f"\nGreatest Decrease in Profits: {decrease_date} (${greatest_decrease})")
 
 
 # Export results to text file
-output = os.path.join("..", "analysis", "results.txt")
+output = os.path.join("analysis", "results.txt")
 
 # Open and write results to text file
 with open(output, 'w') as txtfile:
